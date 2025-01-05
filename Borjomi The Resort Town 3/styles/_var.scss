@@ -1,0 +1,113 @@
+header {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+
+}
+
+body {
+    background-color: #01090B;
+    background-repeat: no-repeat;
+}
+
+.header { 
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 332px;
+}
+
+.Icons {
+    display: flex;
+    align-items: center;
+    gap: 64px; 
+}
+
+ul {
+    display: flex;
+    gap: 104px;
+    list-style: none;
+}
+
+li {
+    color: #FFF;
+    font-family: Montserrat, serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+footer {
+    display: flex; 
+    
+    height: 261px;
+    justify-content: space-between; 
+    align-items: center;    
+    flex-direction: column;
+    
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between; 
+    gap: 560px;
+    width: 1657.55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.nav1 .ul1, 
+.nav2 .ul2, 
+.nav3 .ul3 {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    display: flex; 
+    flex-direction: column; 
+    align-items: flex-start; 
+    gap: 14px; 
+}
+
+.nav1 .ul1 li,
+.nav2 .ul2 li,
+.nav3 .ul3 li {
+    color: #818687;
+    font-family: Montserrat, serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.stay-section {
+    position:absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; 
+}
+
+.Stay {
+    color: #FFF;
+    font-family: Montserrat, serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0; 
+}
