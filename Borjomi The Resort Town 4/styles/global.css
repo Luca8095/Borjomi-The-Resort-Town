@@ -1,0 +1,424 @@
+body {
+  background-color: #01090B;
+  color: white;
+  font-family: Montserrat, serif;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  gap: 104px;
+  list-style: none;
+}
+
+li {
+  color: white;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+li:hover {
+  background: transparent;
+  color: #36655D;
+}
+
+.fa-bars {
+  display: none;
+}
+
+a:hover {
+  color: #36655D;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 64px;
+}
+
+.container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 230px;
+  margin-bottom: 100px;
+}
+
+.fa-arrow-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 50px;
+  width: 1670px;
+}
+
+.fa-arrow-left:hover i {
+  background: transparent;
+  color: #36655D;
+}
+
+.fa-solid:hover i {
+  background: transparent;
+  color: #36655D;
+}
+
+.Info1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 1670px;
+}
+
+.Title {
+  color: #36655D;
+  font-family: Montserrat, serif;
+  font-size: 80px;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+
+img {
+  display: flex;
+  margin-bottom: 50px;
+  border-radius: 10px;
+}
+
+.text1 {
+  color: #ffffff;
+  font-family: Montserrat, serif;
+  font-size: 19px;
+  font-weight: 400;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  width: 1000px;
+}
+
+.text2 {
+  color: #ffffff;
+  font-family: Montserrat, serif;
+  font-size: 19px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  width: 1000px;
+}
+
+.text3 {
+  color: #ffffff;
+  font-family: Montserrat, serif;
+  font-size: 19px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  width: 1000px;
+}
+
+.Info1 ul.Reviews {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 5px;
+  margin: 0;
+  vertical-align: middle;
+  margin-top: 20px;
+}
+
+.Info1 li.word1 {
+  color: #ffffff;
+  font-family: Montserrat, serif;
+  font-size: 19px;
+  font-weight: 400;
+  margin: 0%;
+}
+
+.Info1 li.Logo i.fa-star {
+  color: #ffc800;
+  font-size: 1rem;
+  display: flow-root;
+}
+
+.container3 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  margin-bottom: 200px;
+  box-sizing: border-box;
+}
+
+.Line {
+  flex-grow: 1;
+  width: 100%;
+  height: 2px;
+  background-color: #ffffff;
+}
+
+footer {
+  display: flex;
+  height: 261px;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 560px;
+  width: 1657.55px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.nav1 .ul1,
+.nav2 .ul2,
+.nav3 .ul3 {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14px;
+}
+
+.nav1 .ul1 li,
+.nav2 .ul2 li,
+.nav3 .ul3 li {
+  color: #818687;
+  font-family: Montserrat, serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.stay-section {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.Stay {
+  color: #FFF;
+  font-family: Montserrat, serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+body {
+  background-color: #01090B;
+  background-repeat: no-repeat;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 502px;
+}
+
+.Icons {
+  display: flex;
+  align-items: center;
+  gap: 64px;
+}
+
+ul {
+  display: flex;
+  gap: 104px;
+  list-style: none;
+}
+
+li {
+  color: white;
+  font-family: Montserrat, serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.Text:hover {
+  color: #36655D; /* Changes the text color on hover */
+}
+
+.Text i {
+  color: #ffffff; /* Default icon color */
+  font-size: 2rem; /* Adjust icon size if needed */
+  transition: color 0.3s ease; /* Smooth transition for icon color */
+}
+
+.Text:hover i {
+  color: #36655D; /* Changes icon color on hover */
+}
+
+footer {
+  display: flex;
+  height: 261px;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 560px;
+  width: 1657.55px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.nav1 .ul1,
+.nav2 .ul2,
+.nav3 .ul3 {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14px;
+}
+
+.nav1 .ul1 li,
+.nav2 .ul2 li,
+.nav3 .ul3 li {
+  color: #818687;
+  font-family: Montserrat, serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.stay-section {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.Stay {
+  color: #FFF;
+  font-family: Montserrat, serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+}/*# sourceMappingURL=global.css.map */
