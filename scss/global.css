@@ -68,14 +68,17 @@ body {
 }
 
 header {
+  width: 100%;
   display: flex;
-  margin-top: 30px;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  padding: 30px 0;
 }
 
 .container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -85,13 +88,16 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 504px;
+  width: 100%;
+  gap: 20px;
 }
 
 ul {
   display: flex;
   gap: 104px;
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 li {
@@ -159,20 +165,6 @@ li {
   line-height: normal;
 }
 
-/* Media Queries */
-@media (max-width: 700px) {
-  .fa-bars {
-    display: block;
-  }
-  nav {
-    display: none;
-  }
-}
-@media (max-width: 1165px) {
-  .cardwrapper {
-    justify-content: space-evenly;
-  }
-}
 .s3 {
   display: flex;
   justify-content: center;
@@ -215,7 +207,8 @@ h3 {
 }
 
 .cardwrapper {
-  width: 1440px;
+  width: 100%;
+  max-width: 1440px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -224,6 +217,7 @@ h3 {
   -moz-column-gap: 120px;
        column-gap: 120px;
   row-gap: 40px;
+  margin: 0 auto;
 }
 
 .card {
@@ -257,11 +251,17 @@ h3 {
 }
 
 .cardwrapper2 {
+  width: 100%;
+  max-width: 1440px;
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 40px;
-  margin-top: 20px;
+  -moz-column-gap: 120px;
+       column-gap: 120px;
+  row-gap: 40px;
+  margin: 0 auto;
 }
 
 .myflex2 {
@@ -295,18 +295,6 @@ h3 {
   font-weight: 400;
   line-height: normal;
   margin-bottom: 20px;
-}
-
-.cardwrapper2 {
-  width: 1440px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  -moz-column-gap: 120px;
-       column-gap: 120px;
-  row-gap: 40px;
 }
 
 .card2 {
@@ -360,12 +348,21 @@ footer {
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  -moz-column-gap: 60px;
+       column-gap: 60px;
+  row-gap: 40px;
+  margin-top: 50px;
+  margin-bottom: 100px;
 }
 
 .footer-container {
   display: flex;
   justify-content: space-between;
-  gap: 560px;
+  max-width: 1440px;
+  width: 1000px;
   width: 1657.55px;
   display: flex;
   flex-direction: row;
@@ -421,11 +418,70 @@ footer {
   margin: 0;
 }
 
-@media (max-width: 1000px) {
-  .Icons {
-    display: none;
+@media (max-width: 900px) {
+  .icons {
+    display: none; /* Hides icons */
+  }
+  .header1 {
+    display: none; /* Hides navigation items */
+  }
+  .header2 {
+    display: none; /* Hides navigation items */
+  }
+  .header3 {
+    display: none; /* Hides navigation items */
+  }
+  .header4 {
+    display: none; /* Hides navigation items */
+  }
+  .header5 {
+    display: none; /* Hides navigation items */
   }
   .fa-bars {
-    display: block;
+    display: block; /* Displays the hamburger menu icon */
+    margin: 0 auto; /* Centers the hamburger icon */
+  }
+  .container {
+    max-width: 90%; /* Keeps the container width responsive */
+    margin: 0 auto; /* Centers the container horizontally */
+    display: flex; /* Ensures flexbox centering */
+  }
+  .s1 {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center; /* Centers text inside section */
+    justify-content: center;
+    align-items: center;
+  }
+  .s3 {
+    width: 100%;
+    background-size: cover;
+    text-align: center; /* Centers text inside section */
+    justify-content: center;
+    align-items: center;
+  }
+  .cardwrapper {
+    justify-content: space-evenly;
+  }
+  .cardwrapper2 {
+    justify-content: space-evenly;
+  }
+  .s4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: #36655D;
+    height: 1600px;
+    padding: 20px;
+  }
+  footer {
+    width: 100%;
+    background-size: cover;
+    text-align: center; /* Centers text inside section */
+    justify-content: center;
+    align-items: center;
   }
 }/*# sourceMappingURL=global.css.map */

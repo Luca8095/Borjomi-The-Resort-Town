@@ -152,6 +152,13 @@ footer {
   line-height: normal;
 }
 
+.nav3 .Logo img {
+  width: 120px;
+  height: 120px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
 .stay-section {
   position: absolute;
   top: 50%;
@@ -265,7 +272,7 @@ ul {
 
 li:hover {
   background: transparent;
-  color: red;
+  color: #36655D;
 }
 
 .fa-bars {
@@ -870,6 +877,13 @@ footer {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+}
+
+.nav3 .Logo img {
+  width: 120px;
+  height: 120px;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .stay-section {

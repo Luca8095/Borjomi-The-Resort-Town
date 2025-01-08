@@ -1,9 +1,80 @@
-@media (max-width: 1000px) {
-    .Icons {
-        display: none;
+@media (max-width: 900px) {
+    .icons {
+        display: none; /* Hides icons */
+    }
+
+    .header1 {
+        display: none; /* Hides navigation items */
+    }
+
+    .header2 {
+        display: none; /* Hides navigation items */
+    }
+
+    .header3 {
+        display: none; /* Hides navigation items */
+    }
+
+    .header4 {
+        display: none; /* Hides navigation items */
+    }
+
+    .header5 {
+        display: none; /* Hides navigation items */
     }
 
     .fa-bars {
-        display: block;
+        display: block; /* Displays the hamburger menu icon */
+        margin: 0 auto; /* Centers the hamburger icon */
+    }
+
+    .container {
+        max-width: 90%; /* Keeps the container width responsive */
+        margin: 0 auto; /* Centers the container horizontally */
+        display: flex; /* Ensures flexbox centering */
+    }
+
+    .s1 {
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center; /* Centers text inside section */
+        justify-content: center;
+        align-items: center;
+    }
+
+    .s3 {
+        width: 100%;
+        background-size: cover;
+        text-align: center; /* Centers text inside section */
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cardwrapper {
+        justify-content: space-evenly;
+    }
+
+    .cardwrapper2 {
+        justify-content: space-evenly;
+    }
+
+    .s4 {
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        background-color: #36655D;
+        height: 1600px;
+        padding: 20px;
+    }
+
+    footer {
+        width: 100%;
+        background-size: cover;
+        text-align: center; /* Centers text inside section */
+        justify-content: center;
+        align-items: center;
     }
 }
