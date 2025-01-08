@@ -296,24 +296,22 @@ h3 {
 
 footer {
     display: flex; 
-    height: 261px;
-    justify-content: space-between; 
+    justify-content: center; 
     align-items: center;    
     flex-direction: column;
-    
-    
+    height: 261px;
+    width: 100%;
+    padding: 20px;
 }
 
 .footer-container {
     display: flex;
-    justify-content: space-between; 
-    max-width: 1440px;
-    width: 1000px;
-    width: 1657.55px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around; 
     align-items: flex-start;
+    flex-direction: row;
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
 }
 
 .nav1 .ul1, 
