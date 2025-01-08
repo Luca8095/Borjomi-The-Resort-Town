@@ -348,14 +348,6 @@ footer {
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  -moz-column-gap: 60px;
-       column-gap: 60px;
-  row-gap: 40px;
-  margin-top: 50px;
-  margin-bottom: 100px;
 }
 
 .footer-container {
