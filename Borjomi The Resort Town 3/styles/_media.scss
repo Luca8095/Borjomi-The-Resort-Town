@@ -1,0 +1,77 @@
+@media (max-width: 900px) {
+    .icons {
+        display: none; /* Hides icons */
+    }
+
+    .header1, .header2, .header3, .header4, .header5 {
+        display: none; /* Hides navigation items */
+    }
+
+    .fa-bars {
+        display: block; /* Displays the hamburger menu icon */
+        margin: 0 auto; /* Centers the hamburger icon */
+    }
+
+    .info1 {
+        max-width: 90%; /* Keeps the container width responsive */
+        margin: 0 auto; /* Centers the container horizontally */
+        display: flex; /* Flexbox layout */
+        justify-content: center; /* Centers content horizontally */
+        align-items: center; /* Centers content vertically */
+    }
+
+    .container1, .container2 {
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex; /* Flexbox layout */
+        justify-content: center; /* Centers content horizontally */
+        align-items: center; /* Centers content vertically */
+        text-align: center; /* Centers text inside the section */
+    }
+
+    .cardwrapper, .cardwrapper2 {
+        width: 450px;
+        display: flex; /* Flexbox layout */
+        flex-direction: column; /* Aligns items in a column */
+        justify-content: center; /* Centers content horizontally */
+        align-items: center; /* Centers content vertically */
+        margin: 0 auto; /* Centers the card horizontally */
+        text-align: center;
+    }
+
+    .text {
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex; /* Flexbox layout */
+        justify-content: center; /* Centers content horizontally */
+        align-items: center; /* Centers content vertically */
+        text-align: center;
+    }
+
+    .cardwrapper1, .cardwrapper2 {
+        justify-content: space-evenly; /* Even spacing between items */
+        align-items: center; /* Aligns content vertically */
+    }
+
+    .s4 {
+        display: flex;
+        flex-direction: column; 
+        justify-content: center; /* Centers content horizontally */
+        align-items: center; /* Centers content vertically */
+        margin: 100px 0;
+        background-color: #36655D;
+        height: 1600px;
+        padding: 20px;
+    }
+
+    footer {
+        width: 100%;
+        background-size: cover;
+        display: flex; /* Flexbox layout */
+        justify-content: center; /* Centers content horizontally */
+        align-items: center; /* Centers content vertically */
+        text-align: center;
+    }
+}
