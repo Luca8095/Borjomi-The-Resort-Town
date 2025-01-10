@@ -1,0 +1,135 @@
+@media (max-width: 900px) {
+    .icons {
+        display: none; /* Hides icons */
+    }
+
+    ul {
+        display: none; /* Hides navigation items */
+    }
+
+    .fa-bars {
+        display: block; /* Shows the fa-bars icon */
+        font-size: 32px; /* Ensures proper size */
+        margin: 0 auto; /* Centers the hamburger icon */
+    }
+
+
+    .container {
+        max-width: 90%; /* Keeps the container width responsive */
+        margin: 0 auto; /* Centers the container horizontally */
+        display: flex; /* Ensures flexbox centering */
+    }
+
+    .s1 {
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: left; /* Align text to the left */
+        justify-content: flex-start; /* Align content to the left */
+        align-items: flex-start; /* Align items to the left */
+    }
+
+    .container2 {
+        width: 100%;
+        background-size: cover;
+        text-align: left; /* Align text to the left */
+        justify-content: flex-start; /* Align content to the left */
+        align-items: flex-start; /* Align items to the left */
+        display: flex;
+        flex-direction: column; 
+        margin-top: 100px;
+        margin-bottom: 100px;
+        height: auto; /* Adjust height dynamically */
+        padding: 20px;
+    }
+
+    footer {
+        width: 100%;
+        background-size: cover;
+        text-align: left; /* Align text to the left */
+        justify-content: flex-start; /* Align content to the left */
+        align-items: flex-start; /* Align items to the left */
+        flex-direction: column; /* Stack content vertically */
+        padding: 20px; /* Add padding for spacing */
+    }
+
+    .footer-container {
+        flex-direction: column; /* Stack nav sections vertically */
+        gap: 20px; /* Adjust gap for better spacing */
+        align-items: flex-start; /* Align content to the left */
+        width: 100%; /* Ensure it uses the full width */
+    }
+
+    .nav1 .ul1, 
+    .nav2 .ul2, 
+    .nav3 .ul3 {
+        align-items: flex-start; /* Align text to the left in each section */
+    }
+
+    .nav3 .Logo img {
+        width: 80px; /* Smaller logo for smaller screens */
+        height: auto; 
+    }
+
+
+    img {
+        width: 100%; /* Image takes full width of its container */
+        height: auto; /* Maintains the aspect ratio */
+        margin-bottom: 20px; /* Adjust margin for better spacing */
+        border-radius: 10px; /* Keep the rounded corners */
+    }
+
+    .text1 {
+        text-align: left; /* Align text to the left */
+        width: 100%; /* Allow text to take full width of the container */
+        margin: 0; /* Remove extra margins */
+        padding: 10px; /* Add some padding for better readability */
+        box-sizing: border-box; /* Ensure padding doesn't overflow the container */
+        font-size: 16px; /* Adjust font size for smaller screens */
+    }
+
+    .text2 {
+        text-align: left; /* Align text to the left */
+        width: 100%; /* Allow text to take full width of the container */
+        margin: 0; /* Remove extra margins */
+        padding: 10px; /* Add some padding for better readability */
+        box-sizing: border-box; /* Ensure padding doesn't overflow the container */
+        font-size: 16px; /* Adjust font size for smaller screens */
+    }
+
+
+    .text3 {
+        text-align: left; /* Align text to the left */
+        width: 100%; /* Allow text to take full width of the container */
+        margin: 0; /* Remove extra margins */
+        padding: 10px; /* Add some padding for better readability */
+        box-sizing: border-box; /* Ensure padding doesn't overflow the container */
+        font-size: 16px; /* Adjust font size for smaller screens */
+    }
+
+    .Info1 {
+        width: 100%; /* Ensure container adapts to screen size */
+        padding: 10px; /* Add padding to the container for spacing */
+        box-sizing: border-box;
+    }
+
+
+    .Info1 {
+        align-items: flex-start; /* Align text to the left */
+    }
+
+    .Title {
+        text-align: left; /* Align title text to the left */
+    }
+
+    .text1, .text2, .text3 {
+        text-align: left; /* Align paragraph text to the left */
+    }
+
+    .fa-arrow-left {
+        align-items: flex-start; /* Align the arrow to the left */
+        width: 100%; /* Take full width */
+    }
+
+    
+}
