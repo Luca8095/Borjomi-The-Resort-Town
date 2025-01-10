@@ -1,0 +1,52 @@
+@media (max-width: 900px) {
+    .icons {
+        display: none; /* Hides icons */
+    }
+
+    .header1 {
+        display: none; /* Hides navigation items */
+    }
+
+    .header2 {
+        display: none; /* Hides navigation items */
+    }
+
+    .header3 {
+        display: none; /* Hides navigation items */
+    }
+
+    .header4 {
+        display: none; /* Hides navigation items */
+    }
+
+    .header5 {
+        display: none; /* Hides navigation items */
+    }
+
+    .fa-bars {
+        display: block; /* Displays the hamburger menu icon */
+        margin: 0 auto; /* Centers the hamburger icon */
+    }
+
+    .s1 {
+        width: 100%;
+        display: block;
+        text-align: center; /* Centers text inside section */
+        justify-content: center;
+        align-items: center;
+    }
+
+    .line {
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
+    footer {
+        width: 100%;
+        background-size: cover;
+        text-align: center; /* Centers text inside section */
+        justify-content: center;
+        align-items: center;
+    }
